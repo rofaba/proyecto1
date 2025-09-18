@@ -10,19 +10,22 @@ public class Agenda {
     List<Contacto> contactos = new ArrayList<>();
 
     public void buscarContacto(String apellido) {
-        if (contactos == null) {
-            return;
-        }
-        System.out.println("No se ha encontrado el contacto.");
+
+
         for (Contacto contacto : contactos) {
             if (contacto.getApellido().equalsIgnoreCase(apellido)) {
-                System.out.println("Contacto encontrado: " + contacto.getNombre()
+                System.out.println("Contacto encontrado: "
+                        + contacto.getNombre()
                         + " " + contacto.getApellido()
                         + ", Teléfono: " + contacto.getTelefono());
-                break;
-
+            }else{
+                System.out.println("Contacto no encontrado: ");
 
             }
+
+
+
+
         }
     }
 

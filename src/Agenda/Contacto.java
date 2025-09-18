@@ -40,10 +40,9 @@ public class Contacto {
 
     @Override
     public String toString() {
-        return "Contacto{" +
-                "nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", telefono='" + telefono + '\'' +
-                '}';
+        return "nombre='" + nombre + '\''
+                + ", apellido='" + apellido + '\''
+                + ", telefono='" + telefono + '\''
+                ;
     }
 }

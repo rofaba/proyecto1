@@ -1,5 +1,6 @@
 import Agenda.Agenda;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 
@@ -12,6 +13,7 @@ public class Main {
         int opcion;
 
         do {
+            System.out.println("===================");
             System.out.println("AGENDA DE CONTACTOS");
             System.out.println("===================");
             System.out.println("1. Añadir contacto");
